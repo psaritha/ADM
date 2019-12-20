@@ -1,0 +1,54 @@
+Success (3):
+datatype 3143 {urn:com:appian:types}Type "{urn:com:appian:types}Type"
+dataStore 5378 _a-0000e3b9-852a-8000-804b-78ef9078ef90_32438 "store"
+application 5374 _a-0000e3b9-852a-8000-804b-78ef9078ef90_32431 "Testapp"
+
+Trace:
+2019-12-20 20:59:25.369 DEBUG application 5374 _a-0000e3b9-852a-8000-804b-78ef9078ef90_32431 Begin transport.
+2019-12-20 20:59:25.369 DEBUG application 5374 _a-0000e3b9-852a-8000-804b-78ef9078ef90_32431 Retrieving object data.
+2019-12-20 20:59:25.388 DEBUG application 5374 _a-0000e3b9-852a-8000-804b-78ef9078ef90_32431 App associated objects: [datatype=[{urn:com:appian:types}Type],dataStore=[_a-0000e3b9-852a-8000-804b-78ef9078ef90_32438]]
+2019-12-20 20:59:25.391 DEBUG application 5374 _a-0000e3b9-852a-8000-804b-78ef9078ef90_32431 Invalid associated objects: []
+2019-12-20 20:59:25.391 DEBUG application 5374 _a-0000e3b9-852a-8000-804b-78ef9078ef90_32431 Adding valid associated objects to be exported: GlobalBindingMap[datatype={{urn:com:appian:types}Type=3143},dataStore={_a-0000e3b9-852a-8000-804b-78ef9078ef90_32438=5378}]
+2019-12-20 20:59:25.392 DEBUG application 5374 _a-0000e3b9-852a-8000-804b-78ef9078ef90_32431 Setting uuids of object references.
+2019-12-20 20:59:25.392 DEBUG application 5374 _a-0000e3b9-852a-8000-804b-78ef9078ef90_32431 Processing reference: Application.forum
+2019-12-20 20:59:25.392 DEBUG application 5374 _a-0000e3b9-852a-8000-804b-78ef9078ef90_32431 Processing reference: Application.parent
+2019-12-20 20:59:25.399 DEBUG application 5374 _a-0000e3b9-852a-8000-804b-78ef9078ef90_32431 Processing reference: com.appiancorp.suiteapi.content.ContentRoleMap@712f1409[
+  ContentRole[name=readers,inherit=false,allowForAll=true]
+  ContentRole[name=authors,inherit=false,allowForAll=false]
+  ContentRole[name=administrators,inherit=false,allowForAll=false]
+  ContentRole[name=denyReaders,inherit=false,allowForAll=false]
+  ContentRole[name=denyAuthors,inherit=false,allowForAll=false]
+  ContentRole[name=denyAdministrators,inherit=false,allowForAll=false]
+  securityVector=17:SEC_PUBLIC=true,SEC_CREATOR_ADMIN=false,SEC_INH_ADMIN=false,SEC_INH_EDITOR=false,SEC_INH_VIEWER=false,SEC_ALL_ADMIN=false,SEC_ALL_EDITOR=false,SEC_ALL_VIEWER=true
+]
+2019-12-20 20:59:25.399 DEBUG application 5374 _a-0000e3b9-852a-8000-804b-78ef9078ef90_32431 Processing reference: ContentRole[name=readers,inherit=false,allowForAll=true]
+2019-12-20 20:59:25.399 DEBUG application 5374 _a-0000e3b9-852a-8000-804b-78ef9078ef90_32431 Processing reference: ContentRole[name=authors,inherit=false,allowForAll=false]
+2019-12-20 20:59:25.399 DEBUG application 5374 _a-0000e3b9-852a-8000-804b-78ef9078ef90_32431 Processing reference: ContentRole[name=administrators,inherit=false,allowForAll=false]
+2019-12-20 20:59:25.399 DEBUG application 5374 _a-0000e3b9-852a-8000-804b-78ef9078ef90_32431 Processing reference: ContentRole[name=denyReaders,inherit=false,allowForAll=false]
+2019-12-20 20:59:25.399 DEBUG application 5374 _a-0000e3b9-852a-8000-804b-78ef9078ef90_32431 Processing reference: ContentRole[name=denyAuthors,inherit=false,allowForAll=false]
+2019-12-20 20:59:25.399 DEBUG application 5374 _a-0000e3b9-852a-8000-804b-78ef9078ef90_32431 Processing reference: ContentRole[name=denyAdministrators,inherit=false,allowForAll=false]
+2019-12-20 20:59:25.403 DEBUG datatype 3143 {urn:com:appian:types}Type Begin transport.
+2019-12-20 20:59:25.403 DEBUG datatype 3143 {urn:com:appian:types}Type Retrieving object data.
+2019-12-20 20:59:25.448 DEBUG datatype 3143 {urn:com:appian:types}Type Setting uuids of object references.
+2019-12-20 20:59:25.452 DEBUG datatype 3143 {urn:com:appian:types}Type Completing produce.
+2019-12-20 20:59:25.452 DEBUG datatype 3143 {urn:com:appian:types}Type Exporting binary resources.
+2019-12-20 20:59:25.452 DEBUG datatype 3143 {urn:com:appian:types}Type Serializing object to XML.
+2019-12-20 20:59:25.457 DEBUG datatype 3143 {urn:com:appian:types}Type Object transported.
+2019-12-20 20:59:25.467 DEBUG dataStore 5378 _a-0000e3b9-852a-8000-804b-78ef9078ef90_32438 Begin transport.
+2019-12-20 20:59:25.467 DEBUG dataStore 5378 _a-0000e3b9-852a-8000-804b-78ef9078ef90_32438 Retrieving object data.
+2019-12-20 20:59:25.487 DEBUG dataStore 5378 _a-0000e3b9-852a-8000-804b-78ef9078ef90_32438 Setting uuids of object references.
+2019-12-20 20:59:25.487 DEBUG dataStore 5378 _a-0000e3b9-852a-8000-804b-78ef9078ef90_32438 Processing reference: datatypeRef[id=3143]
+2019-12-20 20:59:25.487 DEBUG dataStore 5378 _a-0000e3b9-852a-8000-804b-78ef9078ef90_32438 Processing reference: ContentRole[name=administrators,inherit=false,allowForAll=false]
+2019-12-20 20:59:25.487 DEBUG dataStore 5378 _a-0000e3b9-852a-8000-804b-78ef9078ef90_32438 Processing reference: ContentRole[name=authors,inherit=false,allowForAll=false]
+2019-12-20 20:59:25.487 DEBUG dataStore 5378 _a-0000e3b9-852a-8000-804b-78ef9078ef90_32438 Processing reference: ContentRole[name=denyAdministrators,inherit=false,allowForAll=false]
+2019-12-20 20:59:25.487 DEBUG dataStore 5378 _a-0000e3b9-852a-8000-804b-78ef9078ef90_32438 Processing reference: ContentRole[name=denyAuthors,inherit=false,allowForAll=false]
+2019-12-20 20:59:25.487 DEBUG dataStore 5378 _a-0000e3b9-852a-8000-804b-78ef9078ef90_32438 Processing reference: ContentRole[name=denyReaders,inherit=false,allowForAll=false]
+2019-12-20 20:59:25.487 DEBUG dataStore 5378 _a-0000e3b9-852a-8000-804b-78ef9078ef90_32438 Processing reference: ContentRole[name=readers,inherit=false,allowForAll=false]
+2019-12-20 20:59:25.487 DEBUG dataStore 5378 _a-0000e3b9-852a-8000-804b-78ef9078ef90_32438 Completing produce.
+2019-12-20 20:59:25.487 DEBUG dataStore 5378 _a-0000e3b9-852a-8000-804b-78ef9078ef90_32438 Exporting binary resources.
+2019-12-20 20:59:25.487 DEBUG dataStore 5378 _a-0000e3b9-852a-8000-804b-78ef9078ef90_32438 Serializing object to XML.
+2019-12-20 20:59:25.496 DEBUG dataStore 5378 _a-0000e3b9-852a-8000-804b-78ef9078ef90_32438 Object transported.
+2019-12-20 20:59:25.496 DEBUG application 5374 _a-0000e3b9-852a-8000-804b-78ef9078ef90_32431 Completing produce.
+2019-12-20 20:59:25.496 DEBUG application 5374 _a-0000e3b9-852a-8000-804b-78ef9078ef90_32431 Exporting binary resources.
+2019-12-20 20:59:25.496 DEBUG application 5374 _a-0000e3b9-852a-8000-804b-78ef9078ef90_32431 Serializing object to XML.
+2019-12-20 20:59:25.506 DEBUG application 5374 _a-0000e3b9-852a-8000-804b-78ef9078ef90_32431 Object transported.
